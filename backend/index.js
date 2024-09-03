@@ -55,7 +55,7 @@ const server = app.listen(port, () => console.log(`Server running on port: ${por
 // Configure Socket.io with CORS
 const io = new Server(server, {
   cors: {
-    origin: 'https://b2b-frontendcopy.netlify.app/login',
+    origin: 'https://b2b-frontendcopy.netlify.app',
     credentials: true,
   },
 });
