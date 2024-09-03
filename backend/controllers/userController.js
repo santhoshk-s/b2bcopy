@@ -28,7 +28,7 @@ const createUser = asyncHandler(async (req, res) => {
       email: newUser.email,
       isAdmin: newUser.isAdmin,
       seller:newUser.seller,
-      status=true,
+      status:true,
     });
   } catch (error) {
     res.status(400);
