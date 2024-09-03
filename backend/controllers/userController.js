@@ -27,7 +27,8 @@ const createUser = asyncHandler(async (req, res) => {
       username: newUser.username,
       email: newUser.email,
       isAdmin: newUser.isAdmin,
-      seller:newUser.seller
+      seller:newUser.seller,
+      status=true,
     });
   } catch (error) {
     res.status(400);
