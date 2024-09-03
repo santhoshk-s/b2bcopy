@@ -1,0 +1,81 @@
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .filter-toggle-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  .shop-filters {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .shop-filters .filter-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .filter-checkbox,
+  .filter-radio {
+    margin-right: 0.5rem;
+  }
+  
+  .price-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .reset-button-container {
+    margin-top: 1rem;
+  }
+  
+  .reset-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .products-display {
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .products-count {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .product-card-container {
+    display: flex;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,78 @@
+/* Add this to your CSS file */
+.container  {
+    margin: 0 auto;
+    margin-top: 26px;
+    padding: 1rem;
+    max-width: 1200px;
+  }
+.container1{
+  margin-top: 30px;
+}
+  
+  .form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .input-group {
+    flex: 1 1 calc(50% - 2rem);
+    margin-bottom: 1rem;
+    overflow: scroll;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .input-group input,
+  .input-group select,
+  .textarea-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .textarea-group {
+    margin-bottom: 1rem;
+  }
+  
+  .textarea-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .textarea-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .submit-btn {
+    display: block;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .input-group {
+      flex: 1 1 100%;
+    }
+  }
+  
