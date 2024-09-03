@@ -22,10 +22,12 @@ const createUser = asyncHandler(async (req, res) => {
     createToken(res, newUser._id);
 
     res.status(201).json({
+      user:newUser,
       _id: newUser._id,
       username: newUser.username,
       email: newUser.email,
       isAdmin: newUser.isAdmin,
+      seller:newUser.seller
     });
   } catch (error) {
     res.status(400);
